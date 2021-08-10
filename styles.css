@@ -49,15 +49,14 @@ button {
     text-align: center;
 }
 
-#shrimpPic {
-
+img {
     max-height: 800px;
-    max-width: 500px;
+    max-width: 100%;
 }
 
 #shrimpVid {
     z-index:1;
     max-height: 800px;
-    max-width: 500px;
+    max-width: 540px;
 }
 
