@@ -1,1 +1,63 @@
-/* Write your CSS here! */
+/* Assignment requirement */
+body {
+    margin: 8px;
+    display: block;
+}
+#mainHeading {
+    color:red;
+}
+.funParagraph{
+    color: green;
+}
+/* End assignment requirement */
+
+html {
+    background-color: rgb(39, 39, 39);
+    color: rgb(168, 184, 199);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    height: 2rem;
+    padding: 5px;
+    background-color: rgb(31, 27, 27);
+    z-index:3;
+    border-color: aliceblue;
+}
+
+button {
+    position: relative;
+    top: 0%;
+    text-align: center;
+    height: 1.1rem;
+    padding: 2px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: rgb(97, 97, 97);
+    border-radius: 10%;
+    border-width: 3px;
+    border-color: rgb(51, 78, 78);
+    margin: 0.5em;
+}
+
+#shrimp {
+    display: flex;
+    text-align: center;
+}
+
+#shrimpPic {
+
+    max-height: 800px;
+    max-width: 500px;
+}
+
+#shrimpVid {
+    z-index:1;
+    max-height: 800px;
+    max-width: 500px;
+}
+
