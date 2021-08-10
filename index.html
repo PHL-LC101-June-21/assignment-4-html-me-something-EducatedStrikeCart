@@ -4,36 +4,34 @@
       <link rel="stylesheet" href="./styles.css">
       <link rel="icon" href="./images/icon.png">
       <title>My Aquarium Page</title>
-
    </head>
-
    <body>
       <div class="navbar">
-         <button style="font-size: 20px;">Back To Top</button>
-         <button>Community Tank</button>
-         <button>Catfish Tank</button>
-         <button>Shrimp Tank</button>
+         <button id="backtotopButton" style="font-size: 20px;">Back To Top</button>
+         <button id="shrimpButton">Shrimp Tank</button>
+         <button id="catfishButton">Catfish Tank</button>
+         <button id="communityButton">Community Tank</button>
       </div>
       <main>
-         <h1>My Aquariums </h1>
+         <h1 id="main">My Aquariums </h1>
          <h2 id="shrimp">Shrimp</h2>
             <section>
                <img src="./images/shrimpDish.png" id="shrimpPic"></img>
                <video id ="shrimpVid" controls>
-                  <source src="./images/shrimp2.mp4" type="video/mp4">
+                  <source src="./images/shrimp.mp4" type="video/mp4">
                </video>
                <p >
                   Lorem ipsum dolor sit amet, mea tacimates repudiare adversarium ex, mutat efficiendi has at. Cu decore latine nominati eum. Eum dissentiet philosophia ut, vim in clita aliquando, no cum bonorum interesset. Id vis sint porro minim, ne persius inermis nostrum vim, legere forensibus ad per.
                </p>
             </section>
-         <h2>Corydoras Tank</h2>
+         <h2 id="catfish">Corydoras Tank</h2>
             <section>
                <p>
                   <img src="./images/chabrosusTank.png"></img>
                   Lorem ipsum dolor sit amet, mea tacimates repudiare adversarium ex, mutat efficiendi has at. Cu decore latine nominati eum. Eum dissentiet philosophia ut, vim in clita aliquando, no cum bonorum interesset. Id vis sint porro minim, ne persius inermis nostrum vim, legere forensibus ad per.
                </p>
             </section>
-         <h2>Community Planted Tank</h2>
+         <h2 id="community">Community Tank</h2>
             <section>
                <p>
                   <img src="./images/communityTank.png"></img>
@@ -50,5 +48,6 @@
          <!-- End assignment requirement -->
       </main>
       <footer>	&copy; Duy Nguyen</footer>
+      <script src="./script.js"></script>
    </body>
 </html>
