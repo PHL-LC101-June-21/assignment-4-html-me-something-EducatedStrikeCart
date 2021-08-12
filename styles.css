@@ -1,1 +1,83 @@
-/* Write your CSS here! */
+/* Assignment requirement */
+body {
+    margin: 8px;
+    display: block;
+}
+#mainHeading {
+    color:red;
+}
+.funParagraph{
+    color: green;
+}
+/* End assignment requirement */
+
+html {
+    background-color: rgb(19, 19, 19);
+    color: rgb(225, 234, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.navbar {
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(17, 17, 17);
+    z-index:3;
+    border-color: aliceblue;
+}
+
+button {
+    position: relative;
+    top: 0%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0.5%;
+}
+
+button:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+img {
+    display: block;
+    max-height: 800px;
+    max-width: 100%;
+}
+
+#shrimpVid {
+    z-index:1;
+    display: block;
+    max-height: 800px;
+    max-width: 540px;
+}
+
+#filler {
+    display: block;
+    height: 80px;
+}
