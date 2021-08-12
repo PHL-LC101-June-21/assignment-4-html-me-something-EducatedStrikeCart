@@ -15,6 +15,14 @@ html {
     background-color: rgb(19, 19, 19);
     color: rgb(225, 234, 243);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -49,8 +57,6 @@ button {
     border: none;
     border-radius: 8px;
     padding: 10px;
-    /* border-width: 3px;
-    border-color: rgb(51, 78, 78); */
     margin: 0.5%;
 }
 
@@ -58,18 +64,15 @@ button:hover {
     background-color: rgb(77, 77, 77);
 }
 
-#shrimp {
-    display: flex;
-    text-align: center;
-}
-
 img {
+    display: block;
     max-height: 800px;
     max-width: 100%;
 }
 
 #shrimpVid {
     z-index:1;
+    display: block;
     max-height: 800px;
     max-width: 540px;
 }
